@@ -9,6 +9,6 @@
     ],
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-softwares.ps1\"')]"
+        "commandToExecute": "[]"
     }
 }
