@@ -9,6 +9,6 @@
     ],
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'postman', '\"')]"
     }
 }
